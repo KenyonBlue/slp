@@ -13,6 +13,10 @@ html {
 
 .top-navigation {
     background-color: #fff;
+    position: fixed;
+    width: 100%;
+    margin-top: -20px;
+    z-index: 9999;
 }
 
 .top-navigation > .content {
@@ -86,7 +90,7 @@ html {
 }
 
 button {
-    margin: 21rem 40rem;
+    margin: 23em 45%;
     width: 9.688rem;
     background-color: #f15a29;
     border-color: #f15a29;
@@ -97,4 +101,33 @@ button {
     color: white;
     font-size: 1.125rem;
     position: absolute;
+}
+
+
+/*three icon section*/
+
+.cases h2 {
+    position: absolute;
+    font-size: 2.75rem;
+    margin-left: 30%;
+    margin-top: 5%;
+    font-weight: 400;
+    width: 45%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cases .devices {
+    margin-top: 8em;
+    text-align: center;
+    width: 33%;
+    display: inline-block;
+    /* styles to assist with debugging */
+    box-sizing: border-box;
+    height: 5em;
+}
+
+.cases .definition {
+    color: black;
+    display: inline-block;
+    margin: 0em 8em;
 }
