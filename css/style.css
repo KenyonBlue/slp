@@ -109,8 +109,8 @@ button {
 .cases h2 {
     position: absolute;
     font-size: 2.75rem;
-    margin-left: 30%;
-    margin-top: 5%;
+    width: 45%;
+    margin: 5% 0px 0px 30%;
     font-weight: 400;
     width: 45%;
     font-family: 'Roboto', sans-serif;
@@ -130,4 +130,21 @@ button {
     color: black;
     display: inline-block;
     margin: 0em 8em;
+}
+
+
+/*footer icon section*/
+
+.social .icons li {
+    position: relative;
+    color: royalblue;
+    display: inline-block;
+    margin: 1rem -2rem 0rem -2rem;
+    text-align: center;
+    width: 10%;
+    left: 34rem;
+}
+
+h5 {
+    text-align: center;
 }
